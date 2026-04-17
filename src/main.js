@@ -71,7 +71,7 @@ async function test() {
   });
   core.debug(output);
   if (exit !== 0) {
-    throw new Error('Failed to run DepotDownloader:');
+    throw new Error('Failed to run DepotDownloader');
   }
 }
 
