@@ -63,7 +63,7 @@ async function test() {
   core.info('Running DepotDownloader to check if it works');
 
   let output = '';
-  const exit = await exec.exec('DepotDownloader2', [], {
+  const exit = await exec.exec('DONOTWORKYOUFOKINTWAT', [], {
     silent: true,
     listeners: {
       stdline: data => output += data.toString()
