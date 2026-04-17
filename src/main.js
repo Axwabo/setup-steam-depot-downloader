@@ -65,7 +65,8 @@ async function test() {
   let output = '';
   const exit = await exec.exec('DepotDownloader', [], {
     listeners: {
-      stdline: data => output += data.toString()
+      stdline: data => output += data.toString(),
+      silent: true
     }
   });
   if (exit !== 0) {
