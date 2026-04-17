@@ -60,7 +60,7 @@ async function download() {
 }
 
 async function test() {
-  core.info('Running DepotDownloader to check if it works');
+  core.info('Running DepotDownloader to check if it works!!!!!!');
 
   let output = '';
   const exit = await exec.exec('DONOTWORKYOUFOKINTWAT', [], {
