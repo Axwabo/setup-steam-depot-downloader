@@ -69,8 +69,9 @@ async function test() {
       stdline: data => output += data.toString()
     }
   });
+  core.debug(output);
   if (exit !== 0) {
-    throw new Error('Failed to run DepotDownloader:\n' + output);
+    throw new Error('Failed to run DepotDownloader:');
   }
 }
 
